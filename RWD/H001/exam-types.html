@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link href="css/stylesForExamTypes.css" type="text/css" rel="stylesheet" />
+    <title>Exam types</title>
+
+    <link rel="stylesheet" href="styles/common.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" width="150"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-items">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav-items">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <!-- remember to add the class active to the <li> -->
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="exam-types.html">Exam Types</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Rules.html">Rules</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="advice.html">Advice</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="schedule.html">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid main">
+
+        <div class="menu d-flex mt-n1 pt-3 flex-column flex-sm-row flex-sm-wrap justify-content-sm-around flex-lg-nowrap">
+            <!--LINKS TO EXAM TYPES-->
+            <!--Default displays columns / sm displays wrap row / lg nowrap row-->
+            <div class="exam">
+                <!--Written Exams-->
+                <a class="px-2 d-flex justify-content-sm-center align-items-center" href="#writtenExam">
+                    <img class="img-exams" src="images/pen-solid.svg" alt="Written">
+                    Written
+                </a>
+            </div>
+            <div class="exam">
+                <!--Written digitally Exams-->
+                <a class="px-2 d-flex justify-content-sm-center align-items-center" href="#digitallyWritten">
+                    <img class="img-exams" src="images/keyboard-regular.svg" alt="Written digitally">
+                    Written digitally
+                </a>
+            </div>
+            <div class="exam">
+                <!--Oral Exams-->
+                <a class="px-2 d-flex justify-content-sm-center align-items-center" href="#oralExams">
+                    <img class="img-exams" src="images/comments-solid.svg" alt="Oral exams">
+                    Oral
+                </a>
+            </div>
+            <div class="exam">
+                <!--Group exams-->
+                <a class="px-2 d-flex justify-content-sm-center align-items-center" href="#groupExams">
+                    <img class="img-exams" src="images/users-solid.svg" alt="Group exams">
+                    Group
+                </a>
+            </div>
+            <div class="exam">
+                <!--Approval/non-approval-->
+                <a class="px-2 d-flex justify-content-sm-center align-items-center" href="#approval">
+                    <img class="img-exams" src="images/check-solid.svg" alt="Approval">
+                    Approval
+                </a>
+            </div>
+        </div>
+        <!--/LINKS TO EXAM TYPES-->
+
+        <div class="container">
+            <!--Exam type descriptions-->
+            <div class="row">
+                <div class="col-lg mr-lg-3" id="writtenExam">
+                    <div class="description-header justify-content-center">
+                        <img class="img-description" src="images/pen-solid.svg" alt="Written exams">
+                        <h2 class="description-caption">Written</h2>
+                    </div>
+                    <ul class="px-sm-2 px-md-3 px-lg-5">
+                        <li>75% attendance is required to attend the exam.</li>
+                        <li>The course is evaluated based on a 3 hour written final exam.</li>
+                        <li>The exam is handwritten. Except for a calculator, no electronic aids are allowed (e.g. laptops, phones, tablets, etc.).</li>
+                        <li>The students are allowed to use notes, books, and other written/printed material.</li>
+                        <li>Any type of communication between students or between a student and an external party will be considered a violation of the exam rules.</li>
+                    </ul>
+                </div>
+                <div class="col-lg ml-lg-3" id="digitallyWritten">
+                    <div class="description-header justify-content-center">
+                        <img class="img-description" src="images/keyboard-regular.svg" alt="Written digitally exams">
+                        <h2 class="description-caption">Written digitally</h2>
+                    </div>
+                    <ul class="px-sm-2 px-md-3 px-lg-5">
+                        <li>The duration on the exam is 2 hours.</li>
+                        <li>The examination consists of two parts:
+                            <ol>
+                                <li>Multiple choice questions - 30 minutes with no aids.</li>
+                                <li>Short answer questions for 90 minutes with all aids including internet connection.</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg mr-lg-3" id="oralExams">
+                    <div class="description-header justify-content-center">
+                        <img class="img-description" src="images/comments-solid.svg" alt="Oral exams">
+                        <h2 class="description-caption">Oral</h2>
+                    </div>
+                    <ul class="px-sm-2 px-md-3 px-lg-5">
+                        <li>75% attendance is required to attend the exam.</li>
+                        <li>Individual oral examination based upon a subject found by draw.</li>
+                        <li>The grade for the oral examination counts for 80% of the final grade while the remaining 20% comes
+                            from a test conducted in the middle of the course.</li>
+                        <li>Allowed tools: All External examiner.</li>
+                    </ul>
+                </div>
+                <div class="col-lg ml-lg-3" id="groupExams">
+                    <div class="description-header justify-content-center">
+                        <img class="img-description" src="images/users-solid.svg" alt="Group exams">
+                        <h2 class="description-caption">Group</h2>
+                    </div>
+                    <p class="px-sm-2 px-md-3 px-lg-5"> The basis of the examination is the project report which should be done as a group project.
+                        First the entire group presents the project (5 minutes per person). Then a group examination will follow
+                        in accordance with the guidelines. It must be stated in the report which parts and subjects each member
+                        is responsible for.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-lg-3 col-lg-6" id="approval">
+                    <div class="description-header justify-content-center">
+                        <img class="img-description" src="images/check-solid.svg" alt="Approval">
+                        <h2 class="description-caption">Approval</h2>
+                    </div>
+                    <p class="px-sm-2 px-md-3 px-lg-5">There is a requirement of 80% attendance minimum and three tests passed. Students who fail
+                        to comply with the above approval criteria, will fail the course (use one exam attempt) and be registered
+                        for a 20 minute oral re-exam (2nd exam attempt). The competences achieved in this course will be assessed
+                        at the project exams.</p>
+                </div>
+            </div>
+        </div>
+        <!/Exam type descriptions-->
+
+            <div class="container-fluid footer pt-1">
+                <!--FOOTER-->
+                <div class="d-flex justify-content-center">
+                    <a href="https://www.facebook.com/viauniversitycollege/" target="_blank">
+                        <img class="img-social ml-2 float-md-left" src="images/facebook-brands.svg" alt="Facebook link">
+                    </a>
+                    <a href="https://www.instagram.com/viauniversitycollege/" target="_blank">
+                        <img class="img-social ml-2 float-md-right" src="images/instagram-brands.svg" alt="Instagram link">
+                    </a>
+                </div>
+                <div class="d-flex justify-content-around flex-wrap">
+                    <a class="contact-link" href="https://en.via.dk" target="_blank">VIA official site</a>
+                    <span>&copy;2019 VIA University College IT-1X-A19</span>
+                    <span>&emsp;Group 4</span>
+                </div>
+            </div>
+    </div>
+
+</body>
+
+</html>

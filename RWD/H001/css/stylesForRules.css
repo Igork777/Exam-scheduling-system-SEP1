@@ -1,0 +1,154 @@
+body {
+    background-color: white;
+}
+
+.row {
+    background-color: gainsboro;
+}
+
+.botborder{
+    border-bottom: 2px solid black;
+}
+
+.carousel-item .img-fluid {
+  width:100%;
+  height:100%;
+}
+
+.content-padding{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.
+
+/*Styling for the icon links on the mobile version*/
+.col-md-4 {
+	text-align: center;
+    margin-bottom: 5px;
+    
+}
+.col-md-4:hover {
+	opacity: 0.9;
+}
+.col-md-4 a {
+	font-size: 1.5em;
+	color: white;
+    display: flex;
+  background: #303030;	
+	border-radius: 10px;
+}
+.col-md-4 a:hover {
+	text-decoration: none;
+	color: #00bc8c;
+}
+
+.img-sm {
+    display: flex;
+	width: 40px;
+  height: 40px;
+    margin-right: 40px;
+}
+/*End of styling for the icon links on the mobile version*/
+
+/*Offsets*/
+.col-sm {
+    border: none;
+}
+
+.offset {
+    margin-top: 50px;
+}
+
+.offset-main{
+    margin-top: 0px;
+}
+
+.offset-bot{
+    padding-bottom: 20px;
+}
+
+
+.offset-right {
+    padding-right: 20px;
+}
+
+/*End of offsets*/
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+}
+
+/*Delete hover decoration for carousel*/
+#myCarousel a:hover {
+    text-decoration: none;
+}
+
+/*Breakpoints for for various screen sizes*/
+
+/*Up until 767 px*/
+@media only screen and (max-width: 767px) {
+        #myCarousel {
+        display: none;
+    }
+        .col-sm-7 {
+        display: none;
+    }
+    .offset{
+        margin-top: 0px;
+        padding-bottom: 10px;
+    }
+    .offset-phone{
+        margin-top:20px;
+    }
+    h3{
+        font-size: 1.3em;
+    }
+    .content-padding{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+/*From 768 px until 991px*/
+@media only screen and (min-width: 768px) {
+    #myCarousel {
+        display: block;
+    }
+    .offset-bot{
+        padding-bottom:0px;
+    }
+    
+    .carousel-caption {
+    font-size: 15px;
+    }
+    
+    .col-md-4{
+        display:none;
+    }
+}
+
+/*From 992 px up*/
+@media only screen and (min-width: 992px) {
+}
+
+/*Footer styling*/
+.footer {
+    max-width: 100%;
+    border-top: 2px solid #222222;
+    background-color: #666666;
+}
+
+col-6, .col-md-4, .col-12 {
+    height: 38px;
+}
+
+.img-social {
+    height: 35px;
+    width: 35px;
+}
+/*End of footer styling*/

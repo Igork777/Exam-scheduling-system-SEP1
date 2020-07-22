@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/aquarium.jpg");
+    background-size: cover;
+}
+
+img {
+    position: fixed;
+}
+
+.counter {
+    background-color: rgba(12, 12, 12, 0.6);
+    position: absolute;
+    padding: 1rem;
+    margin: 2rem;
+    width: 15%;
+    min-height: 5vh;
+    border-radius: 5px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+#fish1Id {
+    left: 250px;
+    top: 250px;
+}
+
+#fish2Id {
+    left: 500px;
+    top: 250px;
+}
+
+.bubbleClass {
+    display: none;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+
+.flipped {
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -khtml-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+}
+
+.crabs {
+    bottom: 0;
+    left: 500px;
+    width: 200px;
+    height: 100px;
+}
+
+#crabId2 {
+    display: none;
+}
+
+#crabId3 {
+    display: none;
+    width: 300px;
+    bottom: -100px;
+}
+
+#coinId {
+    height: 75px;
+    bottom: 90px;
+}
+
+#sparkId {
+    height: 200px;
+    width: 200px;
+    bottom: 20px;
+}
+
+#countId {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#sparkId {
+    display: none;
+}

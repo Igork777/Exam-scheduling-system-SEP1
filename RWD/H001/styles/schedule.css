@@ -1,0 +1,21 @@
+.main{padding-top: 10px !important;}
+.scheduleSelect{
+  width: 100%;
+}
+
+.tableContainer{overflow-x:scroll;}
+
+.table thead tr th:nth-child(1), .table tbody tr:nth-child(1) {
+  min-width: 100px;
+}
+
+form .row{margin:0;}
+.col-xl-4.row {
+  padding-right: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (max-width: 991px) {
+}

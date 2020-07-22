@@ -1,0 +1,7 @@
+# Default ignored files
+/.idea/workspace.xml
+/.idea/*.iws
+/.idea/tasks.xml
+/sep_case_desc.asta.lock
+/stale_outputs_checked
+/.idea/output

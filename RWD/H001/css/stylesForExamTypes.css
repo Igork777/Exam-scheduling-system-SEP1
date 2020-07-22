@@ -1,0 +1,98 @@
+body {
+    background-color: whitesmoke;
+    background-image: url("../images/BG-exams-types.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.my-lg-3 {
+    margin-bottom: 0.9rem !important;
+}
+
+.menu {
+    background-color: rgba(248, 249, 250, 0.8);
+}
+
+.img-exams {
+    height: 25px;
+    width: 25px;
+    margin-right: 0.5rem;
+}
+
+@media screen and (min-width: 576px) {
+    .img-exams {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+.exam a {
+    display: flex;
+    min-width: 150px;
+    height: 30px;
+    background-color: rgb(240, 241, 242);
+    border: 1px solid #222222;
+}
+
+.exam {
+    background-color: rgb(240, 241, 242);
+    margin-bottom: 0.1rem;
+}
+
+@media screen and (min-width: 576px) {
+    .exam a {
+        margin-bottom: 1.5rem;
+        height: 35px;
+    }
+
+    .exam {
+        background-color: transparent;
+    }
+}
+
+.exam a {
+    text-decoration: none;
+    color: black;
+}
+
+.exam a:hover {
+    color: #333333;
+}
+
+.col-lg, .col-lg-6 {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    background-color: rgba(248, 249, 250, 0.8);
+    border-radius: 1rem;
+}
+
+.description-header {
+    display: flex;
+}
+
+.img-description {
+    width: 35px;
+    height: 35px;
+    margin-right: 0.8rem;
+}
+
+@media screen and (max-width: 575px) {
+    .description-caption {
+        display: none;
+    }
+
+    .img-description {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+col-6, .col-md-4, .col-12 {
+    height: 38px;
+}
+
+.main {
+    padding-top: 1px !important;
+}

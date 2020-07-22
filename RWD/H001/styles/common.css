@@ -1,0 +1,28 @@
+.main{padding:0;}
+.row{margin-left: 0; margin-right:0;}
+a.navbar-brand{
+    margin-right: 5%;
+}
+.navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.nav-item{margin-right: 20px;}
+
+.footer {
+    max-width: 100%;
+    border-top: 2px solid #222222;
+    background-color: #f8f9fa;
+    margin-top: 10px;
+}
+
+.footer .img-social {
+    height: 35px;
+    width: 35px;
+}
+
+a.contact-link, a.contact-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+

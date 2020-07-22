@@ -1,0 +1,49 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.header::before, .header::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+.header::before {
+    margin-right: 2%;
+}
+.header::after{
+    margin-left: 2%;
+}
+.red .row div img , .green .row div img
+img.center
+{display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.red .row div:first-child img, .red .row div:last-child img, .green .row div:first-child img, .green .row div:last-child img
+{
+    margin: 10%;
+}
+.red .row div:first-child img, .green .row div:first-child img, .green .row div:last-child img, .red .row div:last-child img
+{
+    width: 75%;
+}
+
+body .row .red .row .images-wrapper .noMargin, body .row .green .row .images-wrapper .noMargin
+{
+    margin: 0 ;
+}
+body .row .red .row .images-wrapper, body .row .green .row .images-wrapper
+{
+    display: flex ;
+    justify-content: space-between ;
+}
+
+.images-wrapper img{width: 33.333% !important;}
+.devName{
+  text-align: center;
+  margin-top: -10px;
+}

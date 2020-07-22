@@ -1,0 +1,132 @@
+html, body{
+    height: 100%;
+    background-color: #F8F9FA;
+}
+.mainImg{
+    position: relative;
+    height: 535px;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: url('../img/campus.jpg') center top;
+    background-size: cover;
+    padding: 175px 0;
+    text-align: center;
+}
+.mainImg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(239, 240, 242, 0.3);
+}
+
+.newsContainer{
+    padding: 0;
+    border: 2px darkgray solid;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+.blockHeading{
+  text-align:center;
+  margin:2rem auto;
+}
+
+.blockTitle{
+    text-align: center;
+    margin: auto;
+}
+.newsBlock .newsItem{
+    box-sizing: border-box;
+    clear: both;
+    background: #eee;
+    padding: 1%;
+}
+.newsBlock .newsItem h4{
+    margin:auto;
+}
+.newsBlock .newsButton{
+    cursor: pointer;
+}
+.newsButton, .eventBtn {
+    background: linear-gradient(rgb(234,237,238), rgb(220,223,224));
+    border: 1px gray solid;
+}
+.newsButton:hover, .eventBtn:hover {
+    border: 1px darkgray solid;
+}
+.newsButton:active, .eventBtn:active {
+    background: linear-gradient(rgb(220,223,224) ,rgb(234,237,238));
+}
+.cloud{
+    z-index: 1;
+}
+
+.eventsContainer{padding: 0 1%;}
+.eventImg{width: 100%;}
+.eventItem{
+  padding: 1%;
+}
+.eventItem+.eventItem{margin-top:3rem;}
+
+.galleryImg{
+  width:100%;
+  margin-bottom: 20px;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 991px) {
+    .newsBlock{
+        overflow-x: scroll;
+    }
+    .newsBlock .newsItem{
+        min-width: 94%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .newsBlock .newsItem .newsImg{
+        max-height: 170px;
+        max-width: 100%;
+    }
+    .newsBlock .newsButton{
+        width: 100%;
+    }
+    .newsBlock .newsItem h4{
+        text-align: center;
+    }
+    .eventBtn{width:100%;}
+}
+
+@media screen and (min-width: 992px) {
+    .newsBlock{
+        max-height: 498px;
+        overflow-y: scroll;
+    }
+    .newsItem {
+        padding-left: 0.5rem;
+        border-bottom: 2px darkgray solid;
+    }
+    .newsBlock .newsItem{
+        margin-top: 5px;
+    }
+    .newsBlock .newsItem:last-child {
+        border-bottom: none;
+    }
+    .newsBlock .newsItem .newsImg{
+        width: 50%;
+        float: left;
+        margin-right: 1%;
+    }
+    .newsBlock .newsButton{
+        clear: both;
+        float: right;
+    }
+    .blockTitle {
+        border-bottom: 2px darkgray solid;
+    }
+}
