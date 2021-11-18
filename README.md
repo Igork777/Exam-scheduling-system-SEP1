@@ -4,13 +4,19 @@
 * [Setup](#setup)
 
 ## General info
-This project is an exam scheduling system for teachers in VIA University College. 
-The backend is written in Java.
-The GUI is written in JavaFX.
+This project is a transportation booking system. 
+Three tier architecture is used in this project. (Data/Logic/Representation)
+The Data layer uses Java, Hibernate and Maven.
+The Logic layer uses .Net.
+The presentation layer uses .Net and Blazor.
 ## Technologies
 Project is created with:
 * Java
-* JavaFX
+* Maven
+* Hibernate
+* .NET
+* Blazor
+* WebSockets
 ## Setup
 To run this project
 
