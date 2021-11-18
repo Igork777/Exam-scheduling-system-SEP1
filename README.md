@@ -4,19 +4,13 @@
 * [Setup](#setup)
 
 ## General info
-This project is a transportation booking system. 
-Three tier architecture is used in this project. (Data/Logic/Representation)
-The Data layer uses Java, Hibernate and Maven.
-The Logic layer uses .Net.
-The presentation layer uses .Net and Blazor.
+This project is an exam scheduling system for teachers from VIA University College.
+The back-end is written in Java.
+The GUI is written in JavaFX.
 ## Technologies
 Project is created with:
 * Java
-* Maven
-* Hibernate
-* .NET
-* Blazor
-* WebSockets
+* JavaFX
 ## Setup
 To run this project
 
